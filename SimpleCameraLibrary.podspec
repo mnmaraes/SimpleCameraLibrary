@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'http://www.jera.com.br'
   s.license      = 'MIT'
   s.author       = { "" => "mnmaraes@gmail.com" }
-  s.source       = { :git => "https://github.com/mnmaraes/SimpleCameraLibrary.git", :tag => s.version.to_s }
+  s.source       = { :git => "git@github.com:mnmaraes/SimpleCameraLibrary.git", :tag => s.version.to_s }
   s.platform     = :ios
 
   s.requires_arc = true
